@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JavaScript Music Player</title>
+    <meta name="description" content="Music player, Javascript music player, Javascript Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body>
+    <div class="music-container">
+        <div class="music-content">
+            <div id="bg-image">
+                <div id="blacklayer"></div>
+                <img src="./assets/img/ncs1.jpeg" alt="" id="bgImage">
+                <div id="menu">
+                    <img src="./assets/img/menu.png" alt="">
+                    <img src="./assets/img/search.png" alt="">
+                </div>
+                <div id="volume-container">
+                    <img src="./assets/img/volume-low.png" alt="" id="volume-down">
+                    <input type="range" class="slider" name="" id="volume-slider" min="0" max="100" value="100" step="1">
+                    <img src="./assets/img/volumn-high.png" alt="" id="volume-up">
+                </div>
+                <div id="music-image">
+                    <div id="circle-Image">
+                        <img src="./assets/img/ncs1.jpeg" alt="" id="image">
+                    </div>
+                    <div id="music-title">
+                        <div id="playlist-status"></div>
+                        <div id="playlist-artist"></div>
+                    </div>
+                </div>
+                <div id="music-menu">
+                    <button id="random">
+                            <img src="./assets/img/random.png" alt="">
+                        </button>
+                    <button id="mutebtn">
+                            <img src="./assets/img/speaker.png" alt="">
+                        </button>
+                </div>
+                <div id="currentTime">
+                    <span id="curtimetext">00:00</span>
+                    <span id="durtimetext">00:00</span>
+                </div>
+                <input type="range" name="" id="seekslider" class="seekslider" min="0" max="100" value="0" step="1">
+                <div id="buttons">
+                    <button class="repeat" id="repeat">
+                            <img src="./assets/img/rep.png" alt="">
+                        </button>
+                    <div>
+                        <button class="prev" id="prevbtn">
+                                <img src="./assets/img/backward.png" alt="">
+                            </button>
+                        <button class="play" id="playbtn">
+                                <img src="./assets/img/play-red.png" alt="">
+                            </button>
+                        <button class="next" id="nextbtn">
+                                <img src="./assets/img/forward.png" alt="">
+                            </button>
+                    </div>
+                    <span class="like">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <script src="" async defer></script>
+</body>
+
+</html>
